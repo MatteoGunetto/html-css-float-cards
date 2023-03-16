@@ -10,7 +10,7 @@ body{
 }
 h1{
     font-family: 'Fredoka One', cursive;
-    color: pink;
+    color: rgb(229, 49, 112);
     text-align: center;
     margin: 20px auto;
 }
@@ -37,11 +37,10 @@ span{
 
 h3{font-family: 'Fredoka One', cursive;
     color: rgb(255, 255, 255);
-
+    padding-bottom: 6px;
 }
 a{
-    color: rgb(0, 0, 0);
-    display: inline-block;
+    color: rgb(111, 200, 235);
 }
 .immagine{
     float: left;
@@ -58,6 +57,7 @@ a{
 /* regole  debug*/
 .row{
     padding: 0 15px;
+    margin: 20px auto;
     /* border: solid 3px ;
     border-color: blueviolet; */
 } 
@@ -67,8 +67,8 @@ a{
     background-color: rgba(221, 12, 12, 0.603); */
     float: left;
     margin: 0px 10px;
-    width:calc(100%/3) - 20px;
-    background-color: black;
+    width: 32%;
+    background-color: rgb(15, 14, 23);
     
 }
 /* .row::before{
