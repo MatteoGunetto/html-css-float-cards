@@ -1,3 +1,4 @@
+
 /* regole generale */
 *{
     margin: 0;
@@ -26,7 +27,7 @@ p{
 }
 
 img{
-    width: 90px;
+    width: 100px;
 }
 
 span{
@@ -44,6 +45,7 @@ a{
 }
 .immagine{
     float: left;
+    padding: 5px 5px;
 }
 .nome{
     float: left;
@@ -67,7 +69,12 @@ a{
     background-color: rgba(221, 12, 12, 0.603); */
     float: left;
     margin: 0px 10px;
-    width: 32%;
+    width:calc(100% / 3 - 20px);
     background-color: rgb(15, 14, 23);
     
 }
+/* .row::before{
+    content: "";
+    display: table;
+    clear: both;
+} */
